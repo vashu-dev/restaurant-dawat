@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="restaurant.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <div class="container-fluid position-absolute px-0 zindex">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-0 px-5">
+            <div class="container">
+
+
+                <div class="collapse navbar-collapse justify-content-between">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-envelope pe-2"></i>
+                                Email: Info@Restaurant.Com
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <i class="fa-solid fa-phone pe-2"></i>
+                                Telephone: +1 800 234 5678
+
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link px-3 navahover" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 navahover" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 navahover" href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link px-3 navahover" href="#"><i class="fa-brands fa-behance"></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link px-3 navahover" href="#"><i class="fa-solid fa-rss"></i></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link  px-3 navahover1 " href="#">BOOK A TABLE</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-5 py-0 px0" id="myHeader">
+            <div class="container">
+                <a class="navbar-brand logolight" href="#">
+                    <img src="main_logo.png">
+                </a>
+                <a class="navbar-brand logodark" href="#">
+                    <img src="logo-dark.png">
+                </a>
+
+                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link  px-3 nl" aria-current="page" href="#intro">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#aboutus">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#offer">OFFER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#menu">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#team">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#blog">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#gallery">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#footer">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 nl" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+<div id="intro">
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="slide1 text-center text-white ">
+                    <div class="bgd ">
+                        <h1 class="animate__animated animate__fadeInDown fm">Welcome to</h1>
+                        <h1 class="pb-4 animate__animated animate__zoomIn">DAWAT CAFE AND RESTAURANT</h1>
+                        <button class="slbutton p-2 px-3 animate__animated animate__fadeInUp">RESERVATION NOW</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="slide2 text-center text-white ">
+                    <div class="bgd ">
+                        <h1 class="animate__animated animate__fadeInDown fm">Our Menus</h1>
+                        <h1 class="pb-4 animate__animated animate__zoomIn">SEE WHAT'S NEW TODAY</h1>
+                        <button class="slbutton p-2 px-3 animate__animated animate__fadeInUp">TODAY'S MENU</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide3 text-center text-white ">
+                    <div class="bgd ">
+                        <h1 class="animate__animated animate__fadeInDown fm">Get Ready</h1>
+                        <h1 class="pb-4 animate__animated animate__zoomIn">TO JOIN WITH US</h1>
+                        <button class="slbutton p-2 px-3 animate__animated animate__fadeInUp">BOOK A TABLE</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div></div>
+    <div class="container-fluid bbg py-5" id="aboutus">
+        <div class="container py-5">
+            <h1 class="text-center colour">Our Story</h1>
+            <div class="row py-3">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>
+                        <span class="bt">M</span>
+                        enc non elit libero. Quisque massa porta ut placerat lentesque non diam. Nam convallis porta
+                        rhoncus. Maecenas varius eget turpis suscipit porta sapien tinc Mauris tempor libero fringilla
+                        orci
+                        vivrra faucibue fringilla orci vivrra faucibus. Integer ullamcorper erat in tellus efficitur,
+                        quis
+                        porta sapien tincidunt. Nunc mattis lectus sed semper semper.
+                    </p>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>Quisque sit amet turpis et ipsum elementum facilisis. Quisque sed placerat libero. Pellentesque
+                        nec
+                        tellus sollicitudin, sollicitudin ligula non, tristique nibh Donec vitae turpis sagittis, cursus
+                        nunc ac, aliquet nunc. Donec viverra vel massa at posuere. Aliquam et fringilla augue consequat
+                        posuere sem, eu ornares viverra veleso massa at posuere. Aliquam et fringilla augue</p>
+
+                </div>
+            </div>
+            <div class="text-center">
+                <img src="sign.png">
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container-fluid bgslide2_1 px-0 " id="offer">
+        <div class="bgdd py-5 ">
+            <div class="text-center pb-4 pt-5">
+                <h1 class="colour">Special Package</h1>
+                <img src="marker.png">
+            </div>
+            <div id="carouselExampleControls" class="carousel slide pb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container position-relative ">
+                            <div class="col-lg-8  col-md-10 col-sm-12 px-5 px0 ">
+                                <div class="bg-dark">
+                                    <div class="imgdark ">
+                                        <img src="slide31.jpg" width="100%">
+
+
+                                    </div>
+                                </div>
+
+                                <div class="position-absolute package bg-white p-5">
+                                    <div class="position-relative">
+
+                                        <img src="tag.png" class="position-absolute tag" height="100px" width="100px">
+                                        <span class="position-absolute price fs-3 text-white fw-bold">$300</span>
+
+
+                                    </div>
+                                    <h2>40% off for 9" - 12" pizza - Wed, Thurs, Friday only</h2>
+                                    <p>Pizza 12 inch + 1 Side Dish + 1,5L Coke Bottle Only From 209,000</p>
+                                    <button class="button p-2 px-4">ORDER NOW</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container position-relative ">
+                            <div class="col-lg-8  col-md-10 col-sm-12 px-5 px0 ">
+                                <div class="bg-dark">
+                                    <div class="imgdark ">
+                                        <img src="slide32.jpg" width="100%">
+
+
+                                    </div>
+                                </div>
+
+                                <div class="position-absolute package bg-white p-5">
+                                    <div class="position-relative">
+
+                                        <img src="tag.png" class="position-absolute tag" height="100px" width="100px">
+                                        <span class="position-absolute price fs-3 text-white fw-bold">$300</span>
+
+
+                                    </div>
+                                    <h2>40% off for 9" - 12" pizza - Wed, Thurs, Friday only</h2>
+                                    <p>Pizza 12 inch + 1 Side Dish + 1,5L Coke Bottle Only From 209,000</p>
+                                    <button class="button p-2 px-4">ORDER NOW</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container position-relative ">
+                            <div class="col-lg-8  col-md-10 col-sm-12 px-5 px0 ">
+                                <div class="bg-dark">
+                                    <div class="imgdark ">
+                                        <img src="slide31.jpg" width="100%">
+
+
+                                    </div>
+                                </div>
+
+                                <div class="position-absolute package bg-white p-5">
+                                    <div class="position-relative">
+
+                                        <img src="tag.png" class="position-absolute tag" height="100px" width="100px">
+                                        <span class="position-absolute price fs-3 text-white fw-bold">$300</span>
+
+
+                                    </div>
+                                    <h2>40% off for 9" - 12" pizza - Wed, Thurs, Friday only</h2>
+                                    <p>Pizza 12 inch + 1 Side Dish + 1,5L Coke Bottle Only From 209,000</p>
+                                    <button class="button p-2 px-4">ORDER NOW</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    <div class="container py-5" id="menu">
+        <div class="text-center pb-4 pt-5">
+            <h1 class="colour">Today's Menu</h1>
+            <img src="marker.png">
+        </div>
+        <div class="owl-carousel owl-theme px-5 px0 pb-5">
+            <div class="item border  border-bottom-0 text-center text-secondary ">
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu1.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold">
+                    $20.00
+                </div>
+
+
+            </div>
+            <div class="item border  border-top-0 text-center text-secondary ">
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu2.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag tagtop">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold pricetop">
+                    $20.00
+                </div>
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+
+            </div>
+            <div class="item border  border-bottom-0 text-center text-secondary ">
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu3.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold">
+                    $20.00
+                </div>
+
+
+            </div>
+            <div class="item border  border-top-0 text-center text-secondary ">
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu4.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag tagtop">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold pricetop">
+                    $20.00
+                </div>
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+
+            </div>
+            <div class="item border  border-bottom-0 text-center text-secondary ">
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu5.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold">
+                    $20.00
+                </div>
+
+
+            </div>
+            <div class="item border  border-top-0 text-center text-secondary ">
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu6.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag tagtop">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold pricetop">
+                    $20.00
+                </div>
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+
+            </div>
+            <div class="item border  border-bottom-0 text-center text-secondary ">
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu1.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold">
+                    $20.00
+                </div>
+
+
+            </div>
+            <div class="item border  border-top-0 text-center text-secondary ">
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu8.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag tagtop">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold pricetop">
+                    $20.00
+                </div>
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+
+            </div>
+            <div class="item border  border-bottom-0 text-center text-secondary ">
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu10.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold">
+                    $20.00
+                </div>
+
+
+            </div>
+            <div class="item border  border-top-0 text-center text-secondary ">
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu1.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag tagtop">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold pricetop">
+                    $20.00
+                </div>
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+
+            </div>
+            <div class="item border  border-bottom-0 text-center text-secondary ">
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu11.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold">
+                    $20.00
+                </div>
+
+
+            </div>
+            <div class="item border  border-top-0 text-center text-secondary ">
+                <div class="bg-dark position-relative">
+                    <div class="menuimg">
+                        <img src="menu12.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="position-absolute menutag tagtop">
+
+                    <img src="tag.png" height="120px" width="120px">
+                </div>
+                <div class="position-absolute menuprice text-white fs-4 fw-bold pricetop">
+                    $20.00
+                </div>
+                <h3 class="pt-3">Cupcake Recipes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere.</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="container-fluid promotions px-0" >
+        <div class="bgdd py-5">
+            <div class="container py-5 text-center">
+                <h1 class="text-white fw-bolder pb-4">BOOK A TABLE NOW!</h1>
+                <button class="button p-2 px-3 button2">BOOK NOW</button>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid py-5 px-2 overflow" id="team">
+        <div class="text-center pb-4 pt-5">
+            <h1 class="colour">Our Chefs</h1>
+            <img src="marker.png">
+        </div>
+        <div class="row justify-content-center py-2 text-center">
+            <div class="col-lg-2 col-md-5 col-sm-12 py-2 ">
+                <div class="position-relative socialout">
+                    <img src="chef1.jpg" class="w-100">
+                    <div class="social position-absolute p-4 text-end py-5 ">
+                        <p class="animate__animated animate__fadeInBottomRight"><a href=""
+                                class="chefsocial  py-2 pt-1"><i class="fa-brands fa-facebook-f"></i></a></p>
+                        <p class="animate__animated animate__fadeInBottomRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-twitter"></i></a></p>
+                        <p class="animate__animated animate__fadeInRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-behance"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial py-2"><i
+                                    class="fa-brands fa-dribbble"></i></a></p>
+
+                    </div>
+                </div>
+                <h6 class="text-secondary py-2 pt-4">Mark Angelila</h6>
+                <p class="text-secondary">Cras senunc massa quisque tempor dolor sit amet </p>
+
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-12 py-2">
+                <div class="position-relative socialout">
+                    <img src="chef-2.jpg" class="w-100">
+                    <div class="social position-absolute p-4 text-end py-5 ">
+                        <p class="animate__animated animate__fadeInBottomRight"><a href=""
+                                class="chefsocial  py-2 pt-1"><i class="fa-brands fa-facebook-f"></i></a></p>
+                        <p class="animate__animated animate__fadeInBottomRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-twitter"></i></a></p>
+                        <p class="animate__animated animate__fadeInRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-behance"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial py-2"><i
+                                    class="fa-brands fa-dribbble"></i></a></p>
+
+                    </div>
+                </div>
+                <h6 class="text-secondary py-2 pt-4">Angel Meskat</h6>
+                <p class="text-secondary">Cras senunc massa quisque tempor dolor sit amet </p>
+
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-12 py-2">
+                <div class="position-relative socialout">
+                    <img src="chef3.jpg" class="w-100">
+                    <div class="social position-absolute p-4 text-end py-5 ">
+                        <p class="animate__animated animate__fadeInBottomRight"><a href=""
+                                class="chefsocial  py-2 pt-1"><i class="fa-brands fa-facebook-f"></i></a></p>
+                        <p class="animate__animated animate__fadeInBottomRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-twitter"></i></a></p>
+                        <p class="animate__animated animate__fadeInRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-behance"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial py-2"><i
+                                    class="fa-brands fa-dribbble"></i></a></p>
+
+                    </div>
+                </div>
+                <h6 class="text-secondary py-2 pt-4">Jon Doe</h6>
+                <p class="text-secondary">Cras senunc massa quisque tempor dolor sit amet </p>
+
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-12 py-2">
+                <div class="position-relative socialout">
+                    <img src="chef4.jpg" class="w-100">
+                    <div class="social position-absolute p-4 text-end py-5 ">
+                        <p class="animate__animated animate__fadeInBottomRight"><a href=""
+                                class="chefsocial  py-2 pt-1"><i class="fa-brands fa-facebook-f"></i></a></p>
+                        <p class="animate__animated animate__fadeInBottomRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-twitter"></i></a></p>
+                        <p class="animate__animated animate__fadeInRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-behance"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial py-2"><i
+                                    class="fa-brands fa-dribbble"></i></a></p>
+
+                    </div>
+                </div>
+                <h6 class="text-secondary py-2 pt-4">Angel Di Maria</h6>
+                <p class="text-secondary">Cras senunc massa quisque tempor dolor sit amet </p>
+
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-12 py-2">
+                <div class="position-relative socialout">
+                    <img src="chef5.jpg" class="w-100">
+                    <div class="social position-absolute p-4 text-end py-5 ">
+                        <p class="animate__animated animate__fadeInBottomRight"><a href=""
+                                class="chefsocial  py-2 pt-1"><i class="fa-brands fa-facebook-f"></i></a></p>
+                        <p class="animate__animated animate__fadeInBottomRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-twitter"></i></a></p>
+                        <p class="animate__animated animate__fadeInRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-behance"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial  py-2"><i
+                                    class="fa-brands fa-instagram"></i></a></p>
+                        <p class="animate__animated animate__fadeInTopRight"><a href="" class="chefsocial py-2"><i
+                                    class="fa-brands fa-dribbble"></i></a></p>
+
+                    </div>
+                </div>
+                <h6 class="text-secondary py-2 pt-4">Park Ji Sung</h6>
+                <p class="text-secondary">Cras senunc massa quisque tempor dolor sit amet </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid daffodil px-0" id="blog">
+        <div class="container-fluid py-5 bgdd">
+            <div class="text-center pb-4 pt-5">
+                <h1 class="colour">Our Chefs</h1>
+                <img src="marker.png">
+            </div>
+            <div class="container text-center pb-5">
+                <div class="owl-carousel owl-theme px-5 px0">
+                    <div class="item bg-white pb-3">
+                        <img src="dip.jpg" class="w-100">
+                        <h3 class="pt-4 pb-2 fw-normal after position-relative">Received first day first reservation
+                        </h3>
+                        <p class="px-3 pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque
+                            eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
+                        <p><a href="" class="datetime">24 February, 2017</a> - <a href="" class="datetime">5
+                                Comments</a></p>
+
+                    </div>
+                    <div class="item bg-white pb-3">
+                        <img src="roti.jpg" class="w-100">
+                        <h3 class="pt-4 pb-2 fw-normal after position-relative">How to get your home delivery?</h3>
+                        <p class="px-3 pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque
+                            eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
+                        <p><a href="" class="datetime">24 February, 2017</a> - <a href="" class="datetime">5
+                                Comments</a></p>
+
+                    </div>
+                    <div class="item bg-white pb-3">
+                        <img src="pic.jpg" class="w-100">
+                        <h3 class="pt-4 pb-2 fw-normal after position-relative">Restaurant welcome day meetup</h3>
+                        <p class="px-3 pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque
+                            eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
+                        <p><a href="" class="datetime">24 February, 2017</a> - <a href="" class="datetime">5
+                                Comments</a></p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-fluid py-5" id="gallery">
+
+        <div class="text-center pb-4 py-5 my-5">
+            <h1 class="colour">Gallery</h1>
+            <img src="marker.png">
+        </div>
+    </div>
+    <div class="container-fluid  footer px-0" id="footer">
+        <div class="bgdd py-5 pb-3">
+            <div class="container py-5 pb-3 text-center">
+                <a href=""><img src="main_logo.png"></a><br>
+                <p class="text-light pt-4">20, floor, Queenslad Victoria Building. 60 california street california USA</p>
+                <p><a href="" class="footlink ">hello@dawat.com</a></p>
+                <p><a href="" class="footlink">+88 000 0000 1111</a></p>
+                <p class="py-4 fs-4">
+                    <a href="" class="footlink1"> <i class="fa-brands fa-facebook-f px-3"></i></a>
+                    <a href="" class="footlink1"><i class="fa-brands fa-twitter px-3"></i></a>
+                    <a href="" class="footlink1"><i class="fa-brands fa-dribbble px-3"></i></a>
+                    <a href="" class="footlink1"><i class="fa-brands fa-google-plus-g px-3"></i></a>
+                    <a href="" class="footlink1"><i class="fa-brands fa-flickr px-3"></i></a>
+                    <a href="" class="footlink1"><i class="fa-brands fa-pinterest px-3"></i></a>
+                    <a href="" class="footlink1"><i class="fa-brands fa-skype px-3"></i></a>
+                    
+                </p><br><hr class="text-white bg-white">
+                
+
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 py-2">
+                    <a href="" class="footlink px-1">Terms of use</a>
+                    <a href="" class="footlink px-1">Privacy Policy</a>
+                    <a href="" class="footlink px-1">SiteMap</a>
+                    <a href="" class="footlink px-1">Contact</a>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 py-2 text-end text-light">
+                    © 2017 <a href="" class="footlink px-1">Dawat Restaurant</a> All Right Reserved.
+                    
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="restaurant.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            // nav: false,
+
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>
